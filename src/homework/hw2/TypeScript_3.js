@@ -19,14 +19,10 @@ id2 = 25; // var ve let ile tanimlanan degiskenlerin degeri degistirilebilir, co
 
 /////////////////////////////////////
 
-
-
 let name1 = "Nurullah";
 let no = 23;
 let secure = true;
-
 let n = null; 
-
 let array = [1,2,3]
 let obj = {};
 
@@ -43,15 +39,15 @@ console.log(typeof(func))
 ////////////////
 
 
-const num1 = prompt("Birinci sayiyi girin: ");
-const num2 = prompt("İkinci sayiyi girin: ");
+let num1 = prompt("First number: ");
+let num2 = prompt("Second number: ");
 
 // Girilen değerlerin sayıya dönüştürülmesini sağlayalım
 const number1 = parseFloat(num1);
 const number2 = parseFloat(num2);
 
-let  summary = number1 + number2;
-alert(`İki sayinin toplami: ${summary}`);
+const  sum = number1 + number2;
+alert(`sum: ${sum}`);
 
 
 
