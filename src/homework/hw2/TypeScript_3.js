@@ -38,11 +38,10 @@ console.log(typeof(func))
 
 ////////////////
 
-
+// run index.html
 let num1 = prompt("First number: ");
 let num2 = prompt("Second number: ");
 
-// Girilen değerlerin sayıya dönüştürülmesini sağlayalım
 const number1 = parseFloat(num1);
 const number2 = parseFloat(num2);
 
